@@ -1,0 +1,126 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 100px;
+	scroll-behavior: smooth
+}
+
+body{
+	width: 100vw;
+	height: 5000px
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	background-color: darkblue;
+	position: relative
+}
+nav{
+	width: 100vw;
+	height: 10%;
+	background: red;
+	position: fixed;
+	z-index: 50;
+	background: rgba(0,0,0,0.4)
+}
+nav a:hover{
+	color: red
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center
+	
+}
+nav ul li{
+	margin: 130px 50px
+}
+nav ul li a{
+	text-decoration: none;
+	color: white
+}
+.trangchu{
+	width: 100%;
+	height: 100%;
+	position: relative
+}
+.title{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: absolute;
+}
+.title h1{
+	font-size: 300px;
+	color: white;
+
+}
+.info{
+	width: 10vw;
+	height: 100vh;
+/*	background: red;*/
+	position: fixed;
+	left:0;
+	z-index: 50;
+	padding-top: 1700px;
+	display: inline;
+	text-align: justify
+}
+.info p{
+	display: flex;
+	font-size: 50px;
+	color: white;
+	transform: rotate(270deg);
+	margin: 0 auto
+}
+.info2{
+	width: 10vw;
+	height: 100vh;
+/*	background: red;*/
+	position: fixed;
+	right:0;
+	z-index: 50;
+	padding-top: 1700px;
+	display: inline;
+	text-align: justify
+}
+.info2 p{
+	display: flex;
+	font-size: 50px;
+	color: white;
+	transform: rotate(90deg);
+	margin: 0 auto
+}
+.background1{
+	width: 100%;
+	height: 100%;
+	position: absolute
+}
+.background1 img{
+	width: 100%;
+	height: 100%
+}
+.about{
+	width: 100vw;
+	height: 100vh;
+	background: black
+}
+.product{
+	width: 100vw;
+	height: 100vh
+}
+.product img{
+	background-size: cover
+}
+.contact{
+	width: 100vw;
+	height: 100vh
+}
